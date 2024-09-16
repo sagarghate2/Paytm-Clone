@@ -1,0 +1,17 @@
+<div class="section4box1">
+                      <div class="section4box1"> <div class="section4img"></div></div>
+                    </div>
+                    .section4box1
+ 
+.section4box1{
+    width: 468px;
+    height: 50px;
+}
+.section4img{
+    width: 212px;
+    height: 46px;
+    background-image: url("paymentsbank.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0px 0px 12px;
+}

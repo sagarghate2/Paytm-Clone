@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("loginpaytm.webp");
+    background-position: center;
+    background-size: cover;
+  
+}
+.full{
+  background-color: #002970;
+  width: 420px;
+   margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  color: #00baf2;
+  border: 0.1px solid black;
+}
+.full h2{
+    text-align: center;
+    font-size: 36px;
+}
+.input-user{
+   width: 350px;
+    height: 50px;
+    background-color:transparent;
+    margin: 30px 0;
+    position: relative;
+}
+.input-user input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255, 255, .2);
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+    
+}
+.input-user i{
+    position: absolute;
+    right: 20px;
+    transform: translateY(-50);
+    top: 40%;
+    font-size: 20px;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+.remember a{
+    color: #00baf2;
+    text-decoration: none;
+}
+.remember a:hover{
+    text-decoration: underline;
+    color: pink;
+}
+.btn{
+    width: 400px;
+    height: 50px;
+    background: #00baf2;
+    border: none;
+    outline: none;
+   border-top-right-radius: 60px;
+   border-bottom-right-radius: 60px;
+   border-top-left-radius: 60px;
+   border-bottom-left-radius: 60px;
+   font-weight: 600;
+   font-size: 20px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    color: #00baf2;
+}
+.last a{
+    color: #00baf2;
+    text-decoration: none;
+}
+.last a:hover{
+    text-decoration: underline;
+}

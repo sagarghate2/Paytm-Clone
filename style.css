@@ -1,0 +1,1625 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+    background-color: #ffffff;
+    height: 90px;
+    font-family: sans-serif;
+   display: flex;
+}
+.paytmlogo{
+    height: 55px;
+    width: 180px;
+    margin: 0px 55px;
+    background-image: url("paytmlogo.svg");
+}
+.navbar2 li{
+    list-style: none;
+     display: inline;
+     padding-left: 30px;
+}
+.navbar2 a{
+    height: 44px;
+    width: 192px;
+    color: #000000;
+    padding-top: 30px;
+    padding: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-weight:600;
+}
+.navbar2{
+    margin-top: 20px;
+}
+.signin{
+     margin: 0px 55px;
+     margin-top: 10px;
+     width: 130x;
+    height: 38px;
+     color: #00baf2;
+     background-color: #00baf2;
+     position: relative;
+     display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.signin span{
+    height: 18px;
+    width: 80px;
+    color: #ffffff;
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.img{
+    background-image: url("user.svg");
+     background-repeat: no-repeat;
+     height: 34px;
+     width: 34px;
+}
+.signin:hover{
+    background-color: #063970;
+}
+.nav2{
+    height: 68px;
+    background-color: #fedc26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.speak{
+    background-image: url("speak.svg");
+    background-repeat: no-repeat;
+    height: 39px;
+    width: 39px;
+}
+.nav2 span{
+    height: 28px;
+    width: 896px;
+    color: #101010;
+    margin: 0px 0px 0px 13px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+.nav2 a{
+    height: 24px;
+    width: 184px;
+    color: #00baf2;
+    margin: 0px 0px 0px 4px;
+}
+.signin a{
+    text-decoration: none;
+}
+.nav2 a:hover{
+    text-decoration: underline;
+}
+.hero-section{
+    height: 694px;
+    width: 1260px;
+    margin: 0px 10px;
+    padding-top: 128px;
+    padding-left: 128px;  
+}
+.image3{
+    height: 84px;
+     width: 650px;
+    background-image: url("Screenshot\ 2024-02-16\ 173752.png");
+    background-repeat: no-repeat;
+    margin: 0px 0px 48px;
+} 
+.div1{
+    width: 650px;
+  
+    color: #000000;
+    font-size: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+}
+.smalltext{
+    height: 100px;
+    width: 475px;
+    color: #000000;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.download{
+    width: 253px;
+    height: 46px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   border-top-right-radius: 60px;
+   border-bottom-right-radius: 60px;
+   border-top-left-radius: 60px;
+   border-bottom-left-radius: 60px;
+}
+.download a{
+    color: #ffff;
+    text-decoration: none;
+}
+.download:hover{
+    background-color: white;
+    color: #000000;
+    border: 2px solid silver;
+}
+.download a:hover{
+    color: #000000;
+}
+.image4{
+    background-image: url("image4.avif");
+    height: 478px;
+    width: 528px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   margin-top: 90px;
+   margin-right: 10px;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+}
+.div2{
+  
+    height: 360px;
+    padding: 65px 0px;
+    background-color: #00baf2;
+}
+.div2 h1{
+    width: 1260;
+    height: 44px;
+    color: #ffff;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.paytms{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.recharge{
+      height: 183px;
+      color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.rechimg{
+    height: 64px;
+    background-image: url("recharge.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+.electricity{
+    height: 183px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.eleimg{
+    height: 64px;
+    background-image: url("electricity.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+.dth{
+    height: 183px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.dthimg{
+    height: 64px;
+    background-image: url("dth.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+.cyclinder{
+    height: 183px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.cyimg{
+    height: 64px;
+    background-image: url("cylinder.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+.broadband{
+    height: 183px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.broadimg{
+    height: 64px;
+    background-image: url("broadband.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+.educationfee{
+    height: 183px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.eduimg{
+    height: 64px;
+    background-image: url("education.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+.services{
+    height: 183px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.serimg{
+    height: 64px;
+    background-image: url("services.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+.div3{
+    height: 357px;
+    padding: 65px 0px;
+    background-color: rgb(16,76,140);
+}
+.div3 h1{
+    width: 1260;
+    height: 44px;
+    color: #ffff;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.tickets{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.movie{
+    height: 183px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.movimg{
+    height: 64px;
+    background-image: url("movie.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+.flight{
+    height: 183px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.flimg{
+    height: 64px;
+    background-image: url("flight.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+.bus{
+    height: 183px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.busimg{
+    height: 64px;
+    background-image: url("bus.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+.train{
+    height: 183px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.traimg{
+    height: 64px;
+    background-image: url("train.avif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+.insurance{
+    height: 183px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.insuimg{
+    height: 64px;
+    background-image: url("insurance.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+.international{
+    height: 183px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.intimg{
+    height: 64px;
+    background-image: url("international.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+.stocks{
+    height: 183px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.stoimg{
+    height: 64px;
+    background-image: url("stocks.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 17px;
+}
+section{
+    height: 873px;
+    background-color: #f5f7fa;
+    padding: 120px 0px 48px;
+    display: flex;
+    justify-content: space-evenly;
+}
+section h1{
+    height: 50px;
+    font-size: 48px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -20px;
+}
+.instru1{
+    display: flex;
+    flex-direction: column;
+    width: 452px;
+    background-color: #ffff;
+    width: 1170px;
+    height: 620px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 128px;
+  
+}
+.instru1 p{
+  margin-top: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+}
+
+.instrimg{
+    height: 77px;
+    width: 92px;
+    background-image: url("wallet.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 70px;
+}
+
+.instru02{
+    width: 390px;
+    height: 92px;
+    color: #000000;
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.in span{
+    width: 452px;
+    height: 106px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+.walletbalance{
+   height: 620px;
+    background-color: #ffff;
+    margin-right: 100px;
+    
+}
+.wimg{
+    width: 530px;
+    height: 600px;
+    background-image: url("waletbalance.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+}
+.in{
+    margin-left: 50px;
+}
+.in .download{
+    margin-top: 40px;
+}
+.out{
+    display: flex;
+    flex-direction: column;
+}
+.section2{
+    width: 100%;
+    height: 674px;
+    color: #000000;
+    font-size: 14px;
+    padding: 0px 0px 48px;
+    background-color: #f5f7fa;
+}
+.page2{
+    width: 1270px;
+    height: 626px;
+    padding: 80px 50px 80px 115px;
+    background-color: #ffff;
+    display: flex;
+}
+.page2box{
+    width: 452px;
+    height: 466px;
+
+}
+.page2box1{
+    width: 175px;
+    height: 77px;
+    color: #000000;
+    font-size: 16px;
+   display: flex;
+}
+.box1img{
+    width: 89px;
+    height: 77px;
+    background-image: url("upi.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.textdi{
+    margin-top: 15px;
+    font-weight: 700;
+}
+.page2head{
+    width: 390px;
+    height: 138px;
+    color: #000000;
+    font-size: 36px;
+    margin-top: 36px;
+    font-weight: 800;
+}
+.page2box span{
+    width: 452px;
+    height: 158px;
+    color: #000000;
+    font-size: 17px;
+    padding: 24px 0px 30px;
+}
+.page2box .download{
+    margin-top: 40px;
+}
+.instru02 .download a{
+    color: #000000;
+
+}
+.page2img{
+    width: 539px;
+    height: 460px;
+    background-image: url("transaction.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+}
+.section3{
+    width: 100%;
+    height: 830px;
+    background-color: #f5f7fa;
+}
+.page3{
+    width: 1170px;
+    height: 830px;
+    margin: 0px 55px;
+    padding: 0px 0px 130px;
+    display: flex;
+}
+.page3box1{
+    width: 561px;
+    height: 700px;
+    background-color: #ffff;
+    margin: 0px 48px 0px 0px;
+    padding: 70px 64px 0px;
+}
+.page3img{
+    width: 185px;
+    height: 77px;
+    background-image: url("hdfc.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.page3box1 h1{
+      width: 433px;
+      height: 124px;
+      color: #000000;
+      font-size: 40px;
+      margin-top: 28px;
+}
+.page3box1 p{
+    width: 433px;
+    height: 60px;
+    color: #000000;
+    margin: 20px 0px 6px;
+}
+.page3box1 span{
+    width: 336px;
+    height: 34px;
+    color: #75767f;
+    font-size: 12px;
+    margin: 0px 0px 20px;
+
+}
+.page3box1 a{
+    width: 66px;
+    height: 15px;
+    color: #00baf2;
+    margin: 0px 0px 4px;
+}
+.page3img2{
+    width: 463px;
+    height: 296px;
+    background-image: url("hdfccard.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.page3box2{
+    width: 590px;
+    height: 700px;
+    background-color: #ffff;
+    margin: 0px 48px 0px 0px;
+    padding: 70px 64px 0px;
+}
+.page3box2img{
+     width: 196px;
+     height: 20px;
+     background-image: url("sbi.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+     margin-top: 40px;
+}
+.page3box2 h1{
+    width: 433px;
+      height: 124px;
+      color: #000000;
+      font-size: 40px;
+      margin-top: 28px;
+}
+.page3box2 p{
+    width: 433px;
+    height: 60px;
+    color: #000000;
+    margin: 20px 0px 6px;
+}
+.page3box2img2{
+    width: 463px;
+    height: 296px;
+    background-image: url("sbicard.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.page3box2 span{
+    width: 336px;
+    height: 34px;
+    color: #75767f;
+    font-size: 12px;
+    margin: 0px 0px 20px;
+}
+.page3box2 a{
+    width: 66px;
+    height: 15px;
+    color: #00baf2;
+    margin: 0px 0px 4px;
+}
+.section4{
+    height: 825px;
+    width: 100%;
+    background-color: #ffff;
+    padding: 0px 0px 48px;
+}
+.section4page4{
+    width: 1170px;
+    height: 500px;
+    margin-top: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+.section4box1{
+    width: 468px;
+    height: 433px;
+}
+.section4inimg{
+    width: 468px;
+    height: 50px;
+}
+.section4img{
+    width: 212px;
+    height: 46px;
+    background-image: url("paymentsbank.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0px 0px 12px;
+}
+.section4div{
+    width: 468px;
+    height: 100px;
+    font-size: 40px;
+    margin-top: 48px;
+    font-weight: 700;
+}
+.section4box1 span{
+    width: 515px;
+    height: 117px;
+    color: #000000;
+    font-size: 20px;
+  margin-bottom: 40px;
+  padding-top: 12px;
+}
+.learnmore{
+    width: 162px;
+    height: 50px;
+    background-color: #063970;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+}
+.learnmore:hover{
+    background-color: #00baf2;
+}
+.learnmore a{
+    color: #000000;
+    text-decoration: none;
+}
+.section4box2{
+    width: 452px;
+    height: 500px;
+    background-image: url("rupaydebit.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.section5{
+    height: 630px;
+    width: 100%;
+}
+.section5back{
+    width: 100%;
+    height: 589px;
+    background-image: url("background.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section5page5{
+    width: 1170px;
+    height: 587px;
+    padding: 80px 0px 80px 0px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.section5box1{
+    width: 472px;
+    height: 452px;
+    background-image: url("paytmmoney.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section5box2{
+    width: 538px;
+    height: 452px;
+}
+.paytmoney{
+    width: 174px;
+    height: 54px;
+}
+.paytmoneyimg{
+    height: 54px;
+    width: 156px;
+    background-image: url("paytmmoneulogo.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0px 12px 0px 0px;
+}
+.section5txt{
+    font-size: 48px;
+    margin-top: 40px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.section5box2 span{
+    width: 538px;
+    height: 132px;
+    color: #000000;
+    font-size: 20px;
+    padding:  0px 0px 30px;
+    margin: 20px 0px 0px 0px;
+}
+.section6{
+    width: 1005;
+    height: 606px;
+    color: #000000;
+    padding: 0px 0px 20px;
+    background-color: #ffff;
+}
+.section6page6{
+    width: 1170px;
+    height: 558px;
+    padding: 80px  0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section6box1{
+    width: 526px;
+    height: 356px;
+    margin-top: 129px;
+}
+.section6img{
+    width: 182px;
+    height: 52px;
+    background-image: url("paytminsurance.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section6txt1{
+    width: 470px;
+    height: 46px;
+    font-size: 40px;
+    margin-top: 48px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.section6box1 span{
+    width: 538px;
+    height: 132px;
+    color: #000000;
+    font-size: 20px;
+    padding:  0px 0px 30px;
+    margin: 20px 0px 0px 0px;
+}
+.section6box2{
+    width: 433px;
+    height: 398px;
+    background-image: url("paytminsurancebigger.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 129px;
+}
+.section7{
+    width: 100%;
+    height: 645px;
+    color: #000000;
+    background-color: #f5f7fa;
+    padding: 0px 0px 48px;
+}
+.section7page7{
+    width: 1170px;
+    height: 597px;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.section7box1{
+    width: 433px;
+    height: 437px;
+    background-image: url("loan.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section7img{
+    width: 188px;
+    height: 54px;
+    background-image: url("personaloan.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section7txt{
+    width: 390px;
+    height: 93px;
+    font-size: 36px;
+    margin-top: 48px;
+    font-weight: 700;
+}
+.section7box2{
+    width: 532px;
+}
+.section7box2 span{
+
+     height: 106px;
+     padding: 28px 0px 30px;
+     color: #000000;
+}
+.section8{
+    width: 100%;
+    height: 877px;
+    background-color: #ffff;
+    padding: 90px 0px 48px;
+}
+.section8 h1{
+    height: 48px;
+    color: #000000;
+    font-size: 48px;
+    margin: 0px 55px 35px;
+    
+}
+.section8page8{
+    width: 1170px;
+    height: 624px;
+    padding: 80px 0px 80px 115px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f7fa;
+}
+.section8box1{
+    width: 474px;
+    height: 248px;
+}
+.section8txt{
+       width: 390px;
+       height: 92px;
+       font-size: 36px;
+       font-weight: 700;
+       margin-top: 48px;
+       margin-bottom: 30px;
+}
+.seciton8box1 span{
+    width: 474px;
+    height: 106px;
+    font-size: 17px;
+}
+.section8box2{
+    width: 433px;
+    height: 464px;
+    background-image: url("headset.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section9{
+    width: 100%;
+    height: 549px;
+    color: #000000;
+    background-color: #ffff;
+    padding: 0px 0px 48px;
+}
+.section9page9{
+    width: 1170px;
+    height: 500px;
+    padding: 80px 0px 80px 115px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f7fa;
+}
+.section9box1{
+    width: 474px;
+    height: 274px;
+
+}
+.section9txt{
+    width: 390px;
+    height: 92px;
+    font-size: 36px;
+    margin-top: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.section9box1 span{
+    width: 474px;
+    height: 134px;
+    font-size: 17px;
+    
+}
+.section9box2{
+    width: 433px;
+    height: 341px;
+    background-image: url("fee.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.section10{
+    width: 100%;
+    height: 932px;
+    background-color: #ffff;
+}
+.section10page10{
+    width: 1170px;
+    height: 932px;
+    margin: 0px 55px;
+    padding: 120px 0px;
+}
+.section10page10 h1{
+    width: 480px;
+    height: 185px;
+    font-size: 40px;
+    padding: 0px 0px 89px;
+    font-weight: 700;
+}
+.divcontainer{
+    width: 1170px;
+    height: 507px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cont1{
+    width: 240px;
+    height: 507px;
+    margin: 0px 70px 0px 0px;
+}
+.pos{
+    width: 240px;
+    height: 220px;
+    background-image: url("pos.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.txt{
+    width: 240px;
+    height: 124px;
+    font-size: 26px;
+    padding: 40px 0px 20px;
+    font-weight: 700;
+}
+.cont1 span{
+    width: 240px;
+    height: 32px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.cont1 p{
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+    margin: 20px 0px 20px;
+}
+.cont1 .one{
+    width: 82px;
+    height: 18px;
+}
+.cont1in span{
+    width: 82px;
+    height: 18px;
+    font-size: 15px;
+   
+}
+.cont2{
+    width: 240px;
+    height: 507px;
+    margin: 0px 70px 0px 0px;
+}
+.ofee{
+    width: 240px;
+    height: 220px;
+    background-image: url("ofee.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.txt2{
+    width: 240px;
+    height: 124px;
+    font-size: 26px;
+    padding: 40px 0px 20px;
+    font-weight: 700;
+}
+.cont2 span{
+    width: 240px;
+    height: 32px;
+    font-size: 26px;
+    font-weight: 700;
+}
+.cont2 p{
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+    margin: 20px 0px 20px;
+}
+.cont2 .two{
+    width: 82px;
+    height: 18px;
+}
+.cont1in2 span{
+    width: 82px;
+    height: 18px;
+    font-size: 15px;
+
+}
+.cont3{
+    width: 240px;
+    height: 507px;
+    margin: 0px 70px 0px 0px;
+}
+.adver{
+    width: 240px;
+    height: 220px;
+    background-image: url("advertisement.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.txt3{
+    width: 240px;
+    height: 124px;
+    font-size: 26px;
+    padding: 40px 0px 20px;
+    font-weight: 700;
+}
+.cont3 span{
+    width: 240px;
+    height: 32px;
+    font-size: 26px;
+    font-weight: 700;
+}
+.cont3 p{
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+    margin: 20px 0px 20px;
+}
+.cont3 .three{
+    width: 82px;
+    height: 18px;
+}
+.cont1in3 span{
+    width: 82px;
+    height: 18px;
+    font-size: 15px;
+
+}
+.cont4{
+    width: 240px;
+    height: 507px;
+    margin: 0px 70px 0px 0px;
+}
+.khata{
+    width: 240px;
+    height: 220px;
+    background-image: url("khata.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.txt4{
+    width: 240px;
+    height: 124px;
+    font-size: 26px;
+    padding: 40px 0px 20px;
+    font-weight: 700;
+}
+.cont4 span{
+    width: 240px;
+    height: 32px;
+    font-size: 26px;
+    font-weight: 700;
+}
+.cont4 p{
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+    margin: 20px 0px 20px;
+}
+.cont4 .four{
+    width: 82px;
+    height: 18px;
+}
+.cont1in4 span{
+    width: 82px;
+    height: 18px;
+    font-size: 15px;
+
+}
+.divlast1{
+    width: 100%;
+    height: 450px;
+}
+.divwdiv1{
+    width: 1170px;
+    height: 360px;
+    background-color: #ffff;
+    margin: 0px 0px 33px;
+    padding: 60px 0px 60px 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.divlast1box1{
+    width: 200px;
+    height: 240px;
+    margin: 0px 40px 0px 0px;
+}
+.divlast1img{
+    width: 160px;
+    height: 58px;
+    background-image: url("paytmmnoey.webp");
+    background-size: cover;
+}
+.divlast1box1 p{
+    height: 123px;
+    font-size: 15px;
+    margin-top: 35px;
+   
+}
+.divlast1box1 a{
+    height: 35px;
+    color: #00baf2;
+    font-size: 17px;
+
+}
+.divlastbox2{
+      width: 155px;
+      height: 240px;
+      background-color: #00baf2;
+      padding: 0px 36px 0px 0px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+}
+.box2imgg{
+    width: 152px;
+    height: 158px;
+    background-image: url("investstocks.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 5px;
+    top: 3px;
+   
+}
+.divlastbox2 span{
+    width: 114px;
+    height: 72px;
+    font-size: 23px;
+    color: #ffff;
+    padding: 16px 0px 16px 0px;
+    position: relative;
+    left: 29px;
+    top: 15px;
+    font-weight: 700;
+}
+.divlastbox3{
+    width: 155px;
+    height: 240px;
+    background-color: #00baf2;
+    padding: 0px 36px 0px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.box3imgg{
+    width: 152px;
+    height: 158px;
+    background-image: url("ipo.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 5px;
+    top: 3px;
+   
+}
+.divlastbox3 span{
+    width: 114px;
+    height: 72px;
+    font-size: 23px;
+    color: #ffff;
+    padding: 16px 0px 16px 0px;
+    position: relative;
+    left: 29px;
+    top: 15px;
+    font-weight: 700;
+}
+.divlastbox4{
+    width: 155px;
+    height: 240px;
+    background-color: #00baf2;
+    padding: 0px 36px 0px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.box4imgg{
+    width: 152px;
+    height: 158px;
+    background-image: url("etfimg.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 5px;
+    top: 3px;
+   
+}
+.divlastbox4 span{
+    width: 114px;
+    height: 72px;
+    font-size: 23px;
+    color: #ffff;
+    padding: 16px 0px 16px 0px;
+    position: relative;
+    left: 29px;
+    top: 15px;
+    font-weight: 700;
+}
+.divlastbox5{
+    width: 155px;
+    height: 240px;
+    background-color: #00baf2;
+    padding: 0px 36px 0px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.box5imgg{
+    width: 152px;
+    height: 158px;
+    background-image: url("goldloan.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 5px;
+    top: 3px;
+   
+}
+.divlastbox5 span{
+    width: 114px;
+    height: 72px;
+    font-size: 23px;
+    color: #ffff;
+    padding: 16px 0px 16px 0px;
+    position: relative;
+    left: 29px;
+    top: 15px;
+    font-weight: 700;
+}
+.divlast2{
+    width: 100%;
+    height: 450px;
+}
+.divwdiv2{
+    width: 1170px;
+    height: 360px;
+    background-color: #ffff;
+    margin: 0px 0px 33px;
+    padding: 60px 0px 60px 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.divlast2box1{
+    width: 200px;
+    height: 240px;
+    margin: 0px 40px 0px 0px
+}
+.divlast2img{
+    width: 160px;
+    height: 58px;
+    background-image: url("paytmtravel.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.divlast2box1 p{
+    height: 123px;
+    font-size: 15px;
+    margin-top: 35px;
+   
+}
+.divlast2box1 a{
+    height: 35px;
+    color: #00baf2;
+    font-size: 17px;
+
+}
+.divlast2box2{
+    width: 155px;
+    height: 240px;
+    background-color: #00baf2;
+    padding: 0px 36px 0px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.divbox2img{
+    width: 72px;
+    height: 72px;
+    background-image: url("flightlast.webp");
+    background-size: contain;
+    position: relative;
+    left: 10px;
+    top: 20px;
+
+}
+.divtxtl{
+    width: 133px;
+    height: 94px;
+    color: #ffff;
+    font-size: 17px;
+    position: relative;
+    top: 40px;
+    left: 12px;
+    font-weight: 700;
+}
+.divlast2box3{
+    width: 155px;
+    height: 240px;
+    background-color: #00baf2;
+    padding: 0px 36px 0px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.divbox3img{
+    width: 72px;
+    height: 72px;
+    background-image: url("buslast.webp");
+    background-size: contain;
+    position: relative;
+    left: 10px;
+    top: 20px;
+
+}
+.divtxtl3{
+    width: 133px;
+    height: 94px;
+    color: #ffff;
+    font-size: 17px;
+    position: relative;
+    top: 40px;
+    left: 12px;
+    font-weight: 700;
+}
+.divlast2box4{
+    width: 155px;
+    height: 240px;
+    background-color: #00baf2;
+    padding: 0px 36px 0px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.divbox4img{
+    width: 72px;
+    height: 72px;
+    background-image: url("refund.webp");
+    background-size: contain;
+    position: relative;
+    left: 10px;
+    top: 20px;
+
+}
+.divtxtl4{
+    width: 133px;
+    height: 94px;
+    color: #ffff;
+    font-size: 17px;
+    position: relative;
+    top: 40px;
+    left: 12px;
+    font-weight: 700;
+}
+.divlast2box5{
+    width: 155px;
+    height: 240px;
+    background-color: #00baf2;
+    padding: 0px 36px 0px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.divbox5img{
+    width: 72px;
+    height: 72px;
+    background-image: url("insuranacelast.webp");
+    background-size: contain;
+    position: relative;
+    left: 10px;
+    top: 20px;
+
+}
+.divtxtl5{
+    width: 133px;
+    height: 94px;
+    color: #ffff;
+    font-size: 17px;
+    position: relative;
+    top: 40px;
+    left: 12px;
+    font-weight: 700;
+}
+footer{
+    width: 100%;
+    height: 931px;
+    padding: 90px 0px 150px 0px;
+    background-color: #f5f7fa;
+}
+.divlast{
+    width: 100%;
+    height: 841px;
+}
+.divimages{
+    width: 100%;
+    height: 117px;
+    margin: 0px 0px 60px;
+    padding: 0px 0px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.div3img 
+{
+    display: flex;
+    
+}
+.div3img span{
+    width: 230px;
+    height: 53px;
+    font-size: 20px;
+    margin: 0px 0px 0px 10px;
+    font-weight: 500;
+
+}
+.divimg1{
+    width: 160px;
+    height: 53px;
+   /* background-image: url("ios.svg"); */
+    background-size: contain;
+    margin: 0px 10px 0px 0px;
+    background-repeat: no-repeat;
+}
+.divimg2{
+    width: 170px;
+    height: 53px; 
+   /* background-image: url("playstore.svg"); */
+    background-size: contain;
+    margin: 0px 10px 0px 0px;
+    background-repeat: no-repeat;
+}
+.div3img2{
+    width: 152px;
+    height: 27px;
+    display: flex;
+}
+.twitter{
+    width: 25px;
+    height: 24px;
+    background-image: url("twitter.svg");
+    background-size: contain;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+.inst{
+    width: 25px;
+    height: 24px;
+    background-image: url("instagram.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}
+.face{
+    width: 25px;
+    height: 24px;
+    background-image: url("facebook.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+
+}
+.ir{
+    width: 1268px;
+    height: 47px;
+    padding: 15px;
+    margin-top: 100px;
+}
+.mr{
+    width: 1268px;
+    height: 47px;
+    padding: 15px;
+}
+.all{
+    width: 1268px;
+    height: 47px;
+    padding: 15px;
+
+}
+.com{
+    width: 1268px;
+    height: 47px;
+    padding: 15px;
+}
+.iu{
+    width: 1268px;
+    height: 47px;
+    padding: 15px;
+}
+.cr{
+    width: 1268px;
+    height: 47px;
+    padding: 15px;
+}
+.rp{
+    width: 1268px;
+    height: 47px;
+    padding: 15px;
+}
+.loanp{
+    width: 1268px;
+    height: 47px;
+    padding: 15px;
+}
+.entravel{
+    width: 1268px;
+    height: 47px;
+    padding: 15px;
+}
+.invesmic{
+    width: 1268px;
+    height: 47px;
+    padding: 15px;
+
+}
+.loancr{
+    width: 1268px;
+    height: 47px;
+    padding: 15px;
+}
+.finant{
+    width: 1268px;
+    height: 47px;
+    padding: 15px;
+    margin-bottom: 250px;
+}
+.color1{
+    background-color: #00baf2;
+    height: 10px;
+}
+.color2{
+    height: 10px;
+    background-color: #063970;
+}
